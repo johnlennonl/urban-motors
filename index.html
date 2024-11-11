@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URBAN MOTORS </title>  
+    <link rel="shortcut icon" href="https://www.urbanmotors.com/carpics/tempupload/Button_Simple_6_269_636771960024290986.jpg" type="image/x-icon">
+    <!-- Incluir Swiper Slider y SweetAlert2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="contenedorNav">
+        <div class="container d-flex justify-content-center">
+            <nav class="navbar bg-body-transparent ">
+                <div class="container-fluid d-flex justify-content-center">
+                  <a class="navbar-brand"><img class="img-fluid mt-2 mb-3 imgBnnersito" src="https://www.urbanmotors.com/carpics/tempupload/Button_Simple_6_269_638506765578542531.png" alt="bannersito"></a>
+                  <nav class="container d-flex justify-content-center">
+                    <ul class="nav d-flex justify-content-center">
+                        <li class="nav-item">
+                          <a class="nav-link navEnlace  " aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link navEnlace " href="#">VEHICLES</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link navEnlace " href="#">CONTACT</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link navEnlace" href="#">UBICATION</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navEnlace" href="#">FINANCIATION</a>
+                          </li>
+                      </ul>
+                </nav>
+                  <div class="d-flex mx-auto" >
+                    </div>                  
+                  </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Slider -->
+       <div class="container">
+        <div id="myCarousel" class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img class="BannerSlider img-fluid" src="https://www.urbanmotors.com/carpics/tempupload/ImageRotator_269_638334059172552137.png" alt="Image 1"></div>
+                <div class="swiper-slide"><img class="BannerSlider img-fluid" src="https://www.urbanmotors.com/carpics/tempupload/ImageRotator_269_638333127893196125.png" alt="Image 2"></div>
+                <div class="swiper-slide"><img class="BannerSlider img-fluid" src="https://www.urbanmotors.com/carpics/tempupload/ImageRotator_269_638150043604425868.webp" alt="Image 3"></div>
+                <div class="swiper-slide"><img class="BannerSlider img-fluid" src="https://www.urbanmotors.com/carpics/tempupload/ImageRotator_269_638150043332861418.webp" alt="Image 3"></div>
+                <div class="swiper-slide"><img class="BannerSlider img-fluid" src="https://www.urbanmotors.com/carpics/tempupload/ImageRotator_269_638150043659426097.webp" alt="Image 3"></div>
+                <!-- Agrega más slides según sea necesario -->
+            </div>
+            <!-- Botones de navegación -->
+            <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+            <!-- Paginación -->
+            <div class="swiper-pagination"></div>
+        </div>
+       </div>
+
+       <!-- Contenido principal -->
+       <div class="container">
+        <img class="img-fluid" src="https://lh3.googleusercontent.com/pw/ADCreHevQMm9ZsMPYTTiPWif0oKVD-O96A1LQDIsf7mzx_fU2Wt-r7eDrl7zbTFZeedodxeVxgznUaGGgkElNtT7eNUTdnownHky07EN4iNpbiHK1WJTYXQ=w2400" alt="">
+    </div>
+
+        <div class="social-sidebar">
+            <a href="https://facebook.com" class="social-icon facebook" target="_blank" title="Facebook">
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/facebook--v1.png" alt="Facebook" style="width: 20px;">
+            </a>
+            <a href="https://instagram.com" class="social-icon instagram" target="_blank" title="Instagram">
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png" alt="Instagram" style="width: 20px;">
+            </a>
+            <a href="https://wa.me/584126581304" class="social-icon whatsapp" target="_blank" title="WhatsApp">
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="WhatsApp" style="width: 20px;">
+            </a>
+        </div>
+        
+    
+    
+    
+
+   <div class="container">
+    <div class="container-fluid">
+        <div class="row mt-4">
+            <!-- Sidebar de filtros -->
+            <div class="col-md-3">
+                <div class="sidebar mb-4 contendorFilter">
+                    <h4>Filters</h4>
+                    <div class="mb-3">
+                        <label for="makeFilter" class="form-label">Make</label>
+                        <input type="text" id="makeFilter" class="form-control" placeholder="e.g., Ford">
+                    </div>
+                    <div class="mb-3">
+                        <label for="yearFilter" class="form-label">Year</label>
+                        <input type="number" id="yearFilter" class="form-control" placeholder="e.g., 2023">
+                    </div>
+                    <div class="mb-3">
+                        <label for="colorFilter" class="form-label">Color</label>
+                        <input type="text" id="colorFilter" class="form-control" placeholder="e.g., Gray">
+                    </div>
+                    <button onclick="applyFilters()" class="btn btn-primary w-100">Apply Filters</button>
+                </div>
+            </div>
+    
+            <!-- Lista de vehículos -->
+            <div class="col-md-9">
+                <div id="vehicle-list" class="row g-3"></div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!-- Botón de Ir Arriba -->
+<button id="btnTop" onclick="scrollToTop()"><img src="https://cdn-icons-png.flaticon.com/512/892/892692.png" alt=""></button>
+
+
+
+
+   <script src="js/botonAsesoria.js"></script>
+    <script src="js/vehicules.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/irArriba.js"> </script>
+    <script src="js/footer.js"> </script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,339 @@
+body {
+    background-color: #020202;
+}
+.vehicle-card img {
+    border-radius: 8px;
+}
+.price {
+    font-size: 1.5em;
+    color: #28a745;
+}
+.sidebar {
+    background-color: #343a40;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+.sidebar label {
+    color: #fff;
+}
+.swiper-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+span{
+    color: #050505;
+    font-weight: 700;
+}
+
+.btnDetails{
+    background-color: #010101;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+
+}
+
+.btnDetails:hover{
+    background-color: #ebebeb;
+    color: #050505;
+    font-weight: 500;
+   
+}
+
+.btnContact{
+    background-color: #ebebeb;
+    color: #050505;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+}
+
+.btnContact:hover{
+    background-color: #010101;
+    color: #fff;
+    font-weight: 500;
+}
+
+.contendorFilter{
+    background-color: #343a40;
+    border-radius: none ;
+    border-radius: 1px;
+}
+
+.contendorFilter button{
+    background-color: #010101;
+    color: #fff;
+    font-weight: 300;
+    border: none;
+    border-radius: 3px;
+}
+
+.contendorFilter input{
+    background-color: #eeeaea;
+    color: #fff;
+    font-weight: 300;
+    border: none;
+    border-radius: 1px;
+}
+.swiper-button-next{
+    color: #2d2fcf;
+    font-weight: bold;
+}
+
+.swiper-button-prev{   
+    color: #2d2fcf;
+    font-weight: bold;
+}
+.cardVehicle{
+    border-radius: 1px;
+    background-color: #343a40;
+    color: #fff;
+    font-weight: 300;
+    border: none;
+    box-shadow: rgba(73, 73, 73, 0.027) 0px 4px 6px -1px, rgba(65, 64, 64, 0.363) 0px 2px 4px -1px;
+}
+
+.swiper-container {
+    overflow: hidden;
+    width: 100%;
+    height: 100%; /* O ajusta la altura necesaria */
+}
+.swiper-wrapper {
+    display: flex;
+    
+}
+
+.navEnlace{
+    color: #ffffffad;
+    font-weight: 700;
+}
+
+.navEnlace:hover{
+    color: #ebebeb;
+    font-weight: 700;
+    border-bottom: #edeff1;
+}
+
+.contenedorNav{
+    background-image: url(https://toyotacorasur.com/wp-content/uploads/2022/10/Banner-home.jpeg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.btnSweetAlert{
+    background-color: #010101;
+    width: 100%;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    border-radius: 1px;
+}
+.btnSweetAlertContact{
+    background-color: #215a9b;
+    width: 100%;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    border-radius: 1px;
+}
+.custom-container{
+    color: #010101;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+
+}
+
+.swal2-input{ 
+    background-color: #fdfdfd;
+}
+
+#contactForm{
+    display: block;
+    width: 100%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    
+    
+}
+
+#contactForm input{
+    background-color: #01010102;
+    color: #fff;
+    font-weight: 500;
+    border: 1px solid #010101;
+    border-radius: 3px;
+    width: 100%;
+    padding: 10px;
+}
+
+.custom-swal-popup{
+    background-color: #343a40;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    border-radius: 1px;;
+}
+
+/* From Uiverse.io by andrew-demchenk0 */ 
+.buttonVer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 12px;
+    gap: 8px;
+    height: 40px;
+    width: 100%;
+    border: none;
+    background: #215a9b;
+    cursor: pointer;
+  }
+  
+  .lable {
+    line-height: 22px;
+    font-size: 17px;
+    color: #fff;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .buttonVer:hover {
+    background: #070707;
+  }
+  
+  .buttonVer:hover .svg-icon {
+    animation: flickering 2s linear infinite;
+  }
+  
+  @keyframes flickering {
+    0% {
+      opacity: 1;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    52% {
+      opacity: 1;
+    }
+  
+    54% {
+      opacity: 0;
+    }
+  
+    56% {
+      opacity: 1;
+    }
+  
+    90% {
+      opacity: 1;
+    }
+  
+    92% {
+      opacity: 0;
+    }
+  
+    94% {
+      opacity: 1;
+    }
+  
+    96% {
+      opacity: 0;
+    }
+  
+    98% {
+      opacity: 1;
+    }
+  
+    99% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+
+.imgBnnersito{
+    width: 400px;
+    cursor: pointer;
+  }
+
+/* From Uiverse.io by david-mohseni */ 
+.containerLocated{
+    background-color:#215a9b ;
+}
+
+
+.social-sidebar {
+    position: fixed;
+    top: 50%;
+    left: 0; /* Cambiado de right a left */
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1000;
+}
+
+/* Estilos para cada botón de red social */
+.social-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #33333344;
+    border-radius: 0 5px 5px 0; /* Cambiado para ajustarse al lado izquierdo */
+    color: white;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+/* Colores específicos para cada red social */
+.facebook { background-color: #3b5998; }
+.instagram { background-color: #E1306C; }
+.whatsapp { background-color: #25D366; }
+
+/* Efecto al pasar el cursor sobre los íconos */
+.social-icon:hover {
+    transform: translateX(5px); /* Cambiado a positivo para moverse hacia la derecha */
+}
+
+
+/* Estilo del botón de Ir Arriba */
+#btnTop {
+    position: fixed;
+    bottom: 80px; /* Ajusta la posición para colocarlo más arriba del botón de contacto */
+    right: 20px;
+    display: none; /* Oculto al inicio */
+    background-color:transparent;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1000; /* Para asegurar que esté encima de otros elementos */
+    transition: opacity 0.3s ease;
+    
+}
+
+#btnTop img {
+    width: 50px;
+    height: 50px;
+}
